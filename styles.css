@@ -44,3 +44,15 @@ i{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.footer {
+    font-size: 10px;
+    color: lightgrey;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
