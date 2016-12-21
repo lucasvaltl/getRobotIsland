@@ -9,15 +9,16 @@ html {
 body{
   text-align:center;
   font-size: 50px;
-  font-family: helvetica;
+  font-family: "Courier New";
   color: white;
-  font-weight: bold;
+  font-weight: regular;
   background-color: transparent;
 }
 
 /* unvisited link */
 a:link {
     color: white;
+    text-decoration: none;
 }
 
 /* visited link */
@@ -27,16 +28,17 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: lightpink;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: lightblue;
 }
-i{
-  text-align: center;
-}
+
 
 .container {
     position: absolute;
@@ -45,14 +47,16 @@ i{
     transform: translateX(-50%) translateY(-50%);
 }
 
-.footer {
+footer {
     font-size: 10px;
-    color: lightgrey;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
   text-align: center;
+}
+
+.text-muted{
+  color: #efefef;
 }
