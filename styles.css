@@ -47,6 +47,14 @@ a:active {
     transform: translateX(-50%) translateY(-50%);
 }
 
+#smallText{
+  font-size: 12px;
+}
+
+#smallText a{
+  text-decoration: underline;
+}
+
 footer {
     font-size: 10px;
   position: absolute;
