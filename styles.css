@@ -4,16 +4,20 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:100%;
 }
 
 body{
+  min-height: 100%;
   text-align:center;
   font-size: 16px;
   font-family: "Courier New";
   color: white;
   font-weight: regular;
   background-color: transparent;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
+   display: flex;
+  flex-direction: column;
 }
 
 p{
@@ -27,7 +31,7 @@ h1 {
 
 
 /* unvisited link */
-a:link, footer a{
+a:link, .footer a{
     color: white;
 text-decoration: underline;
 }
@@ -48,6 +52,10 @@ a:hover {
 /* selected link */
 a:active {
     color: lightblue;
+}
+
+.content{
+  flex: 1;
 }
 
 .container {
@@ -104,23 +112,20 @@ a.btn {
         display: flex;
         align-items: center;
     }
-    footer {
-        font-size: 0.6em;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      padding: 1rem;
-      text-align: center;
     }
 }
 
-footer {
+.footer {
   font-size: 0.6em;
-  float: left;
+  position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 20px;
+  margin-top: 40;
+      padding: 1rem;
+}
 
+.footer p {
+  font-size:0.5em;
 }
