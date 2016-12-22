@@ -53,7 +53,6 @@ a:active {
 
 .content{
   flex: 1;
-  padding-bottom: 40px;
 }
 
 .container {
@@ -91,7 +90,6 @@ a.btn {
 .robot{
   background-image: image(images/robot.png);
   background-position: center;
-  padding-top: 100px;
 }
 
 .png{
@@ -99,9 +97,13 @@ a.btn {
 }
 
 
-@media (max-device-width: 768px) {
-  body{
-  }
+@media (max-width: 768px) {
+.robot{
+  padding-top: 100px;
+}
+.content{
+  padding-bottom: 40px;
+}
 }
 
 
