@@ -21,12 +21,14 @@ p{
 
 h1 {
   font-size: 4em;
+  text-align:center;
 }
 
+
 /* unvisited link */
-a:link {
+a:link, footer a{
     color: white;
-    text-decoration: none;
+text-decoration: underline;
 }
 
 /* visited link */
@@ -39,14 +41,13 @@ a:hover {
     color: white;
     font-weight: bold;
     font-style: normal;
-    text-decoration: none;
+
 }
 
 /* selected link */
 a:active {
     color: lightblue;
 }
-
 
 .container {
     position: absolute;
@@ -59,9 +60,20 @@ a:active {
   font-size: 1em;
 }
 
-#smallText a{
-  text-decoration: underline;
+#smallerText{
+  font-size: 0.8em;
 }
+
+.btn-default{
+  color: white;
+  background-color: transparent;
+margin: 10px 10px 10px 10px;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
 
 footer {
     font-size: 0.6em;
@@ -77,8 +89,26 @@ footer {
   color: #efefef;
 }
 
+.robot{
+  background-image: image(images/robot.png);
+  background-position: center;
+}
+
+.png{
+  width: 80%;
+}
+
+
 @media screen and (max-device-width: 764px) {
   body{
     font-size: 30px;
   }
+}
+
+
+@media (min-width: 768px) {
+    .row.vertical-align {
+        display: flex;
+        align-items: center;
+    }
 }
