@@ -90,6 +90,7 @@ a.btn {
 .robot{
   background-image: image(images/robot.png);
   background-position: center;
+  padding-top: 20px;
 }
 
 .png{
