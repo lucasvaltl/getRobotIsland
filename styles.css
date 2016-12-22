@@ -99,7 +99,7 @@ footer {
 }
 
 
-@media screen and (max-device-width: 764px) {
+@media (max-device-width: 768px) {
   body{
     font-size: 30px;
   }
