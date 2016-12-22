@@ -8,15 +8,19 @@ html {
 
 body{
   text-align:center;
-  font-size: 1em;
+  font-size: 16px;
   font-family: "Courier New";
   color: white;
   font-weight: regular;
   background-color: transparent;
 }
 
+p{
+  font-size: 1em;
+}
+
 h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 /* unvisited link */
@@ -71,4 +75,10 @@ footer {
 
 .text-muted{
   color: #efefef;
+}
+
+@media screen and (max-device-width: 764px) {
+  body{
+    font-size: 20px;
+  }
 }
