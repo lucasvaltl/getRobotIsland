@@ -117,6 +117,7 @@ a.btn {
 
 footer {
   font-size: 0.6em;
+  float: left;
   position: absolute;
   bottom: 0;
   width: 100%;
