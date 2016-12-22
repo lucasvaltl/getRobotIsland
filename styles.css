@@ -4,11 +4,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:100%;
+  overflow: auto;
+  height: 100%;
 }
 
 body{
-  min-height: 100%;
+
   text-align:center;
   font-size: 16px;
   font-family: "Courier New";
@@ -16,8 +17,7 @@ body{
   font-weight: regular;
   background-color: transparent;
    margin-bottom: 20px;
-   display: flex;
-  flex-direction: column;
+   padding-top:20px;
 }
 
 p{
@@ -102,7 +102,6 @@ a.btn {
 
 @media (max-device-width: 768px) {
   body{
-    font-size: 30px;
   }
 }
 
@@ -122,8 +121,8 @@ a.btn {
   left: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  margin-top: 40;
-      padding: 1rem;
+  margin-top: 20px;
+      padding-top: 20px;
 }
 
 .footer p {
