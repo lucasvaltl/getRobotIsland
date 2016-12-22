@@ -13,6 +13,7 @@ body{
   color: white;
   font-weight: regular;
   background-color: transparent;
+   margin-bottom: 40px;
 }
 
 p{
@@ -75,15 +76,7 @@ a.btn {
 }
 
 
-footer {
-    font-size: 0.6em;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-}
+
 
 .text-muted{
   color: #efefef;
@@ -111,4 +104,23 @@ footer {
         display: flex;
         align-items: center;
     }
+    footer {
+        font-size: 0.6em;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      text-align: center;
+    }
+}
+
+footer {
+  font-size: 0.6em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+
 }
