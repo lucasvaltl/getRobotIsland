@@ -53,6 +53,7 @@ a:active {
 
 .content{
   flex: 1;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -119,8 +120,6 @@ a.btn {
   left: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  margin-top: 20px;
-      padding-top: 20px;
 }
 
 .footer p {
