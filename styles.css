@@ -8,11 +8,15 @@ html {
 
 body{
   text-align:center;
-  font-size: 50px;
+  font-size: 1em;
   font-family: "Courier New";
   color: white;
   font-weight: regular;
   background-color: transparent;
+}
+
+h1 {
+  font-size: 5em;
 }
 
 /* unvisited link */
@@ -48,7 +52,7 @@ a:active {
 }
 
 #smallText{
-  font-size: 12px;
+  font-size: 1em;
 }
 
 #smallText a{
@@ -56,7 +60,7 @@ a:active {
 }
 
 footer {
-    font-size: 10px;
+    font-size: 0.8em;
   position: absolute;
   right: 0;
   bottom: 0;
