@@ -1,4 +1,4 @@
-# getRobotIsland
+# RobotIsland Landing Page
 
 
-Website for the RobotIsland game.
+Website for distributing the RobotIsland game. It is a very simple website that uses Bootstrap for responsiveness. 
