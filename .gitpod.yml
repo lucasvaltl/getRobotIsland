@@ -1,5 +1,5 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      sleep 2h && echo 'my string'
     command: |
       echo 'TODO: start app'
